@@ -14,11 +14,11 @@ p {
 
 
 img {
-    border-radius:100px;
-    background: green;
+    border-radius:25px;
+    background: orange;
     padding:6px;
-    width:200px;
-    height:200px;
+    width:300px;
+    height:150px;
 }
 
 .quotes {
