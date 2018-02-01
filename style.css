@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color:red;
+  font-style:oblique;
+}
+
+p {
+  color:yellow;
+  font-style:italic;
+}
+
+
+img {
+    border-radius:100px;
+    background: green;
+    padding:6px;
+    width:200px;
+    height:200px;
+}
+
+.quotes {
+  width:33%;
+  margin-right: auto;
+  margin-left:auto;
+  border-color:red;
+  border-style:solid;
+  border-radius:5px;
+  margin-top:20px;
+  padding:20px;
+  height:auto;
+  color:white;
+}
+
+.quote {
+  font-size:20px;
+  font-family:Times New Roman;
+}
+
+.author {
+  color:white;
+  font-style:italic;
+  font-aize:7px;
+}
