@@ -12,11 +12,10 @@ p {
   font-style:italic;
 }
 
-
 img {
     border-radius:25px;
-    background: orange;
-    padding:6px;
+    background: green;
+    padding:5px;
     width:300px;
     height:150px;
 }
