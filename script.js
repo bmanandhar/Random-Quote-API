@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
   getQuote();
   var quote, author;
 
