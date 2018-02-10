@@ -1,17 +1,20 @@
 body {
   background-color:black;
 }
-
 h1 {
   color:red;
   font-style:oblique;
 }
-
-p {
+.line {
+    color: gold;
+}
+.middle {
   color:yellow;
   font-style:italic;
 }
-
+#bottom {
+    color: orange;
+}
 img {
     border-radius:25px;
     background:green;
@@ -19,19 +22,14 @@ img {
     width:300px;
     height:150px;
 }
-
 #newQuote {
     background-color:yellow;
 }
-
 .tweet {
     background-color:green;
 }
-
-.facebook {
-    background-color:blue;
+.facebook {    background-color:blue;
 }
-
 .quotes {
   width:33%;
   margin-right:auto;
@@ -44,12 +42,10 @@ img {
   height:auto;
   color:white;
 }
-
 .quote {
   font-size:20px;
   font-family:Times New Roman;
 }
-
 .author {
   color:white;
   font-style:italic;
