@@ -2,7 +2,7 @@ body {
   background-color:black;
 }
 h1 {
-  color:red;
+  color:#0066ff;
   font-style:oblique;
 }
 .line {
@@ -16,9 +16,9 @@ h1 {
     color: orange;
 }
 img {
-    border-radius:25px;
+    border-radius:15px;
     background:green;
-    padding:5px;
+    padding:2px;
     width:300px;
     height:150px;
 }
@@ -26,12 +26,12 @@ img {
     background-color:yellow;
 }
 .tweet {
-    background-color:green;
+    background-color:#00ff00;
 }
-.facebook {    background-color:blue;
+.facebook {    background-color:#ff6600;
 }
 .quotes {
-  width:33%;
+  width:50%;
   margin-right:auto;
   margin-left:auto;
   border-color:red;
@@ -40,14 +40,17 @@ img {
   margin-top:20px;
   padding:20px;
   height:auto;
-  color:white;
+  color:#80bfff;
 }
 .quote {
   font-size:20px;
   font-family:Times New Roman;
 }
 .author {
-  color:white;
+  color:#b3d1ff;
   font-style:italic;
   font-aize:7px;
+}
+.link {
+    color:#ccff33;
 }
