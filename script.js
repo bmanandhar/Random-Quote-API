@@ -1,6 +1,5 @@
 $(document).ready(function(){
   var quote, author, link;
-
   function getQuote(){
   var url= "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?";
   $.getJSON(url, function(data){
@@ -9,7 +8,8 @@ $(document).ready(function(){
     console.log("Type of data");
     console.log(data);
     quote = data.quoteText;
-    link = data.quoteLink;
+    author = data.quoteAuthor;
+    link = data.quoteLink
     if (data.quoteAuthor) {
       author = data.quoteAuthor;
     } else {
@@ -21,10 +21,10 @@ $(document).ready(function(){
   });
 };
     $("#tweet").on("click", function(){
-    window.open("https://twitter.com/intent/tweet?text=" + quote + "   - " + author);
+    window.open("https://twitter.com/intent/tweet?text="+quote+"   - "+author);
   });
     $(".facebook").on("click", function(){
-    window.open("https://www.facebook.com/sharer/sharer.php?u=" + link);
+    window.open("https://www.facebook.com/sharer/sharer.php?u="+ link);
   });
     $("#newQuote").on("click", function(){
     getQuote();

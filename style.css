@@ -1,7 +1,7 @@
 body {
   background-color:black;
 }
-h1 {
+h5 {
   color:#0066ff;
   font-style:oblique;
 }
@@ -28,7 +28,7 @@ img {
 .tweet {
     background-color:#00ff00;
 }
-#facebook {    background-color:#ff6600;
+.facebook {    background-color:#ff6600;
 }
 .quotes {
   width:50%;
@@ -53,9 +53,4 @@ img {
 }
 .link {
     color:#ccff33;
-}
-footer {
-    font-size:15px;
-    color:#9999ff;
-    font-family:italics;
 }
