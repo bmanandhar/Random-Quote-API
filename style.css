@@ -25,11 +25,6 @@ img {
 #newQuote {
     background-color:yellow;
 }
-.tweet {
-    background-color:#00ff00;
-}
-.facebook {    background-color:#ff6600;
-}
 .quotes {
   width:50%;
   margin-right:auto;
@@ -53,4 +48,12 @@ img {
 }
 .link {
     color:#ccff33;
+}
+.share {
+  text-align:left;
+}
+.tweet {
+    background-color:#00ff00;
+}
+.facebook {    background-color:#ff6600;
 }
