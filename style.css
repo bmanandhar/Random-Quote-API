@@ -1,62 +1,82 @@
 body {
   background-color:black;
 }
+
 h5 {
   color:#0066ff;
   font-style:oblique;
 }
-.line {
-    color: gold;
-}
-.middle {
-  color:yellow;
-  font-style:italic;
-}
+
 #bottom {
     color: orange;
 }
+
 img {
-    border-radius:15px;
-    background:green;
-    padding:2px;
-    width:300px;
-    height:150px;
+    border-radius: 15px;
+    background: green;
+    padding: 2px;
+    width: 300px;
+    height:  150px;
 }
+
+.quote-box {
+    width: 400px;
+    height: 300px;
+    border-radius: 3px;
+    position: relative;
+    margin: 8% auto auto auto;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #ffff;
+}
+
 #newQuote {
-    background-color:yellow;
+    background-color: yellow;
+    float: right;
 }
+
 .quotes {
-  width:50%;
-  margin-right:auto;
-  margin-left:auto;
-  border-color:red;
-  border-style:solid;
-  border-radius:5px;
-  margin-top:20px;
-  padding:20px;
-  height:auto;
-  color:#80bfff;
+    width:50%;
+    margin-right:auto;
+    margin-left:auto;
+    border-color:red;
+    border-style:solid;
+    border-radius:5px;
+    margin-top:20px;
+    padding:20px;
+    height:auto;
+    color:#80bfff;
 }
+
 .quote {
   font-size:20px;
   font-family:Times New Roman;
 }
+
 .author {
   color:#b3d1ff;
   font-style:italic;
   font-aize:7px;
 }
+
 .link {
     color:#ccff33;
 }
+
 .share {
+  float: left;
   text-align:left;
 }
+
 .tweet {
     background-color:#00ff00;
 }
-.facebook {    background-color:#ff6600;
+
+.facebook {
+    background-color:#ff6600;
 }
+
 .foot {
     color:#00FFFF;
 }
