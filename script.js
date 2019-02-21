@@ -30,7 +30,6 @@ $(document).ready(function(){
       )
   });
 };
-  
     $("#tweet").on("click", function(){
     window.open("https://twitter.com/intent/tweet?text="+quote+"   - "+author);
     });
@@ -42,5 +41,4 @@ $(document).ready(function(){
     $("#newQuote").on("click", function(){  
     getQuote();
   });
-  
 });

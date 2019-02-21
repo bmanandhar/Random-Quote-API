@@ -26,5 +26,7 @@ This web application has been made available to public to read and learn several
 * Random Quote
 
 <img src="random_quote.png" width=400>
-
-
+<!--
+https://codepen.io/bmanandhar/pen/wyKJrY
+https://codepen.io/bmanandhar/full/wyKJrY
+-->
