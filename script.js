@@ -22,9 +22,12 @@ $(document).ready(function(){
     } else {
       author = "Anonymous";
     }
+    $(".link").html("");
     $(".quote").html('"'+quote+'"');
     $(".author").html("-"+author);
-    $(".link").html(link);
+    $(".link").append(`
+      <a href="${link}">${link}</a>`
+      )
   });
 };
   
@@ -36,7 +39,7 @@ $(document).ready(function(){
     window.open("https://www.facebook.com/sharer/sharer.php?u="+ link);
   });
   
-    $("#newQuote").on("click", function(){     
+    $("#newQuote").on("click", function(){  
     getQuote();
   });
   
