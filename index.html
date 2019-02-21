@@ -5,34 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other-->
     <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
 
     <div class="container-fluid text-center">
         <h5> Random Quote Generator </h5>
+        <p class="line">=-=-=-=-=-=-=-=-=-=-=-=-=-=</p>
         <img src="http://images.pexels.com/photos/531739/pexels-photo-531739.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="flower image"/>
+        <p class="middle">Each click, new quote!</p>
         <p id="bottom">Find quotes from great people of the world on a random basis</p>
-        <div class="quote-box">
-          <div class="new-quote">
-              <button class="btn btn-default" type ="submit" id="newQuote">New quote</button>
-          </div><br/>
+        <button class="btn btn-default" type ="submit" id="newQuote">New quote</button>
+        <div class="quotes">
             <span class="quote">Please click "New quote" button</span><br/>
             <span class="author"></span><br/>
-            <span class="link"></span><br><br>
-            <div class="share">
-              <button a href="#" class="btn btn-default tweet" type="submit" id="tweet">Tweet out</button>
-              <button a href="#" class="btn btn-default facebook" type="submit" id="facebook">Facebook</button>
-            </div>
+        </div> 
+        <span class="link"></span><br><br>
+        <div class="text-center share">
+            <button href="#" class="btn btn-default tweet" type="submit" id="tweet">Tweet out</button> 
+            <button href="#" class="btn btn-default facebook" type="submit" id="facebook">Facebook</button>
         </div>
-    </div><br>
+    </div><br>  
     <footer>
-        <p class="text-center foot">code by: bijaya.manandhar@hotmail.com; &copy</p>
-    </footer>
-</body>
-</html>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
-    <link href="style.css" rel="stylesheet">
-
+        <p class="text-center">code by: bijaya.manandhar@hotmail.com &copy;</p>
+    </footer>  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="script.js"></script>
+</body>
+</html>
