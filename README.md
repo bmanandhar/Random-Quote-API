@@ -21,7 +21,7 @@ This web application has been made available to public to read and learn several
 * Styling the webpage
 * Writing the `script.js` file
 
-*Screeshot Image*
+*Screenshot Image*
 
 * Random Quote
 
