@@ -8,9 +8,9 @@ This web application has been made available to public to read and learn several
 
 * Web entry point being `index.html` file, upon opening this file, all the functionalities get triggered that are linked to this file, mainly the `script.js` file that contains the code base written in JavaScript using Jquery library.
 
-* `index.html` and `style.css` combined will display a webpage having a prompting window, buttons, images and texts on the browser. 
+* `index.html` and `style.css` combined will display a web page having a prompting window, buttons, images and texts on the browser. 
 
-* Once the "New quote" buttom is clicked, the `script.js` will get activated and accesses the public API data library <a href="http://forismatic.com/en/">http://forismatic.com/en/</a> to reneder the randomly generated data containing quote, author name, and URL of data in the cloud.
+* Once the "New quote" button is clicked, the `script.js` will get activated and accesses the public API data library <a href="http://forismatic.com/en/">http://forismatic.com/en/</a> to reneder the randomly generated data containing quote, author name, and URL of data in the cloud.
 
 * the data then can be sent directly to Facebook and/or Tweeter for posting, if the user wants. 
 
